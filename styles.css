@@ -1,0 +1,110 @@
+html {
+    background-color:rgb(132, 167, 231)
+}
+.welcome-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.welcome-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.buttons-container {
+    margin-top: 50px;
+}
+
+.register-button,
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.register-button:hover,
+.login-button:hover {
+    background-color: #555;
+}
+
+
+.login-form {
+    max-width: 400px;
+    margin: 100px auto 0;
+    padding: 20px;
+    background-color:darkgray; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+.login-form button {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.register-form {
+    max-width: 400px;
+    margin: 100px auto 0;
+    padding: 20px;
+    background-color:darkgray; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+.register-form button {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.register-form h2 {
+    margin-bottom: 20px;
+}
